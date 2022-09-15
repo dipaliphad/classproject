@@ -12,14 +12,16 @@ namespace classproject
         {
 
 
-            Emp emp = new Emp(40000, 11, "sam");
+            Emp emp1 = new Emp(40000, 11, "sam");
+            emp1.CalculateTotalSalary();
+            Console.WriteLine(emp1.CalculateTotalSalary());
 
-            Console.WriteLine("HRA : " + emp.GetHRA());
-            Console.WriteLine("CalculateDA : " + emp.CalculateDA());
-            Console.WriteLine("CalculateTotalSalary : " + emp.CalculateTotalSalary());
-            Console.WriteLine("CalculatePF : " + emp.CalculatePF());
-            Console.WriteLine("CalculateNetpaid : " + emp.CalculateNetpaid());
-            Console.WriteLine(emp.DisplayValue());
+            Console.WriteLine("HRA : " + emp1.GetHRA());
+            Console.WriteLine("CalculateDA : " + emp1.CalculateDA());
+            Console.WriteLine("CalculateTotalSalary : " + emp1.CalculateTotalSalary());
+            Console.WriteLine("CalculatePF : " + emp1.CalculatePF());
+            Console.WriteLine("CalculateNetpaid : " + emp1.CalculateNetpaid());
+            Console.WriteLine(emp1.DisplayValue());
             Console.ReadLine();
 
 
