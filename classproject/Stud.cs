@@ -28,7 +28,7 @@ namespace classproject
             total = s1+s2+s3;
             per = (total/3);
         }
-        public string DisplayValue()
+        public override string ToString()
         {
             return $"Student Details is:   {name}/ {roolno}/ {per}";
         }

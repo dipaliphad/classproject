@@ -14,18 +14,24 @@ namespace classproject
 
             Emp emp1 = new Emp(40000, 11, "sam");
             emp1.CalculateTotalSalary();
-            Console.WriteLine(emp1.CalculateTotalSalary());
-
+            Console.WriteLine(emp1.Print());
             Console.WriteLine("HRA : " + emp1.GetHRA());
             Console.WriteLine("CalculateDA : " + emp1.CalculateDA());
             Console.WriteLine("CalculateTotalSalary : " + emp1.CalculateTotalSalary());
             Console.WriteLine("CalculatePF : " + emp1.CalculatePF());
             Console.WriteLine("CalculateNetpaid : " + emp1.CalculateNetpaid());
-            Console.WriteLine(emp1.DisplayValue());
-            Console.ReadLine();
+          
+            Emp emp2 = new Emp(50000, 12, "dipu");
+            emp2.CalculateTotalSalary();
+            Console.WriteLine(emp2.Print());
+            Console.WriteLine("HRA : " + emp2.GetHRA());
+            Console.WriteLine("CalculateDA : " + emp2.CalculateDA());
+            Console.WriteLine("CalculateTotalSalary : " + emp2.CalculateTotalSalary());
+            Console.WriteLine("CalculatePF : " + emp2.CalculatePF());
+            Console.WriteLine("CalculateNetpaid : " + emp2.CalculateNetpaid());
+          
 
-
-            //4.. rectangle..
+            //4..rectangle..
             //Rectangle rectangle = new Rectangle(3, 4);
             //rectangle.CalculatePerimeter();
             //Console.WriteLine(rectangle.DisplayValue());

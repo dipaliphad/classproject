@@ -57,7 +57,7 @@ namespace classproject
             return netpaid;
         }
 
-        public string DisplayValue()
+        public string Print()
         {
             return $" emp details:\n Id={id}\n empid={empid}\n empname={empname}\n basicsalary={basicsalary}";
         }
