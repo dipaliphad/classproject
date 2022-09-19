@@ -47,6 +47,7 @@
     <Compile Include="Constuctor.cs" />
     <Compile Include="Date.cs" />
     <Compile Include="Emp.cs" />
+    <Compile Include="Emp1.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

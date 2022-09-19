@@ -35,7 +35,7 @@ namespace classproject
             return netpaid;
         }
 
-        public string DisplayValue()
+        public  override string ToString()
         {
             return $"empId={empid}\n name={empname}\n basicsalary={basicsalary}\n allowances={allowances} ";
         }

@@ -10,26 +10,33 @@ namespace classproject
     {
         static void Main(string[] args)
         {
+            Manager m1 = new Manager("manager1", 45000, 250,1200, 5000);
+            m1.CalculateSalary();   
+            Console.WriteLine(m1);
 
+            Emp1 e1 = new Manager("manager2", 42000, 250, 1200, 5000);
+            e1.CalculateSalary();
+            Console.WriteLine(e1);
 
-            Emp emp1 = new Emp(40000, 11, "sam");
-            emp1.CalculateTotalSalary();
-            Console.WriteLine(emp1.Print());
-            Console.WriteLine("HRA : " + emp1.GetHRA());
-            Console.WriteLine("CalculateDA : " + emp1.CalculateDA());
-            Console.WriteLine("CalculateTotalSalary : " + emp1.CalculateTotalSalary());
-            Console.WriteLine("CalculatePF : " + emp1.CalculatePF());
-            Console.WriteLine("CalculateNetpaid : " + emp1.CalculateNetpaid());
-          
-            Emp emp2 = new Emp(50000, 12, "dipu");
-            emp2.CalculateTotalSalary();
-            Console.WriteLine(emp2.Print());
-            Console.WriteLine("HRA : " + emp2.GetHRA());
-            Console.WriteLine("CalculateDA : " + emp2.CalculateDA());
-            Console.WriteLine("CalculateTotalSalary : " + emp2.CalculateTotalSalary());
-            Console.WriteLine("CalculatePF : " + emp2.CalculatePF());
-            Console.WriteLine("CalculateNetpaid : " + emp2.CalculateNetpaid());
-          
+            //Emp emp1 = new Emp(40000, 11, "sam");
+            //emp1.CalculateTotalSalary();
+            //Console.WriteLine(emp1.Print());
+
+            //Console.WriteLine("HRA : " + emp1.GetHRA());
+            //Console.WriteLine("CalculateDA : " + emp1.CalculateDA());
+            //Console.WriteLine("CalculateTotalSalary : " + emp1.CalculateTotalSalary());
+            //Console.WriteLine("CalculatePF : " + emp1.CalculatePF());
+            //Console.WriteLine("CalculateNetpaid : " + emp1.CalculateNetpaid());
+
+            //Emp emp2 = new Emp(50000, 12, "dipu");
+            //emp2.CalculateTotalSalary();
+            //Console.WriteLine(emp2.Print());
+            //Console.WriteLine("HRA : " + emp2.GetHRA());
+            //Console.WriteLine("CalculateDA : " + emp2.CalculateDA());
+            //Console.WriteLine("CalculateTotalSalary : " + emp2.CalculateTotalSalary());
+            //Console.WriteLine("CalculatePF : " + emp2.CalculatePF());
+            //Console.WriteLine("CalculateNetpaid : " + emp2.CalculateNetpaid());
+
 
             //4..rectangle..
             //Rectangle rectangle = new Rectangle(3, 4);
